@@ -77,3 +77,38 @@ body {
   background: #2531b5;
   color: #fff;
 }
+
+
+.secondary-btn {
+  background: #fff;
+  color: #3d4fff;
+  border: 1.5px solid #3d4fff;
+  margin-top: 20px;
+}
+
+.see-in-action {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 70px auto 70px auto;
+  gap: 40px;
+}
+.see-in-action-text {
+  flex: 1;
+}
+.see-action-text{
+    font-size: 42px !important;
+}
+.see-action-paragraph{
+    color: #878787;
+}
+.see-in-action-img {
+  flex: 1;
+  text-align: right;
+}
+.see-in-action-img img {
+  width: 403px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+}
